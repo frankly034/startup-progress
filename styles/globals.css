@@ -2,8 +2,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+    Helvetica Neue, sans-serif;
 }
 
 a {
@@ -15,12 +15,63 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.container {
+  padding: 16px;
+}
+
+.title {
+  text-align: center;
+}
+
+.stage-container {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.stage {
+  width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 16px;
+}
+
+.stage-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.stage-title .level {
+  background-color: #000;
+  color: #fff;
+  font-size: 1rem;
+  padding: 4px 8px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.stage-title .status {
+  background-color: #ccc;
+  color: #fff;
+  font-size: 0.5rem;
+  padding: 4px 8px;
+  border-radius: 8px;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
+.check-box {
+  margin: 8px 0;
+}
+
+.check-box label {
+  width: 85%;
+  vertical-align: top;
+  display: inline-block;
+  margin-left: 8px;
+}
+
+.facts {
+  text-align: center;
 }

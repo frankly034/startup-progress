@@ -1,34 +1,101 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Startup Progress
 
-## Getting Started
+Every startup goes through several stages. In every stage, there are
+necessary steps to be accomplished. This NextJS application would help track this process.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
+- [Features](#features)
+- [Todos](#todos)
+- [Apis Employed](#apis-employed)
+- [Built with](#built-with)
+- [Required Installations](#required-installations)
+- [Installation](#installation)
+- [License](#license)
+- [Contact](#contact)
+- [Acknowledgements](#acknowledgements)
+
+<!-- features -->
+
+## Features
+
+- A user can view different phases and steps to complete each phase.
+- Users can only move to the next phase when preceeding phase is completed.
+- Users can reopen a completed phase using the reopen button that appears on completed phases.
+- Users are shown a random fact once all phases are completed.
+
+<!-- todos -->
+
+## Todos
+
+- Style redo button.
+- Add phase state to show status - active or inactive.
+
+<!-- apis employed -->
+
+## APIs Employed
+
+- There was no API integration for the phases and steps. Browser localstorage was used to keep track of progress.
+- The API employed for random facts was gotten from by [here](https://uselessfacts.jsph.pl/random.json).
+
+<!-- BUILT wITH -->
+
+## Built with
+
+- NextJS
+
+<!-- MOCK DESIGNS -->
+
+## Mock Designs
+
+See mock design guides for the app below;
+
+<!-- REQUIRED INSTALLATION -->
+
+## Required Installations
+
+- Npm
+
+<!-- INSTALLATION -->
+
+## Installation of This Repository
+
+Once you have installed the required packages shown on the [Required Installations](#required-installations), proceed with the following steps
+
+Clone the Repository
+
+```Shell
+your@pc:~$ git clone git@github.com:frankly034/startup-progress.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Move to the downloaded folder
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```Shell
+your@pc:~$ cd startup-progress
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Install all packages
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```Shell
+your@pc:~$ npm install
+```
 
-## Learn More
+Open the app
 
-To learn more about Next.js, take a look at the following resources:
+```Shell
+your@pc:~$ npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Distributed under the MIT License. See `LICENSE` for more information.
 
-## Deploy on Vercel
+<!-- CONTACT -->
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contact
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- 🇳🇬 Lewis Ugege - franklynugege@gmail.com | [Github Account](https://github.com/frankly034) | [Twitter](https://twitter.com/@wizlulu) | [Linkedin](https://linkedin.com/in/lewis-ugege) |
+
+## Acknowledgements
+
+- <a href="https://uselessfacts.jsph.pl/random.json"> Random Facts</a> and God Almighty .
