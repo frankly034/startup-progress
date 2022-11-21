@@ -5,8 +5,10 @@ const PROGRESS = "progress";
 const PROGRESS_ANSWERS = "answers";
 
 const init = () => {
-  setData(PROGRESS_ANSWERS, {});
-  setData(PROGRESS, { currentLevel: 1, activatedLevels: [1] });
+  if (!getStartupProgressAnswers()) {
+    setData(PROGRESS_ANSWERS, {});
+    setData(PROGRESS, { currentLevel: 1, activatedLevels: [1] });
+  }
 };
 
 const getData = (key: string) => {
