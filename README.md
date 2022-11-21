@@ -50,6 +50,9 @@ necessary steps to be accomplished. This NextJS application would help track thi
 
 See mock design guides for the app below;
 
+<img width="1440" alt="Screenshot 2022-11-21 at 16 18 38" src="https://user-images.githubusercontent.com/31358867/203091358-b86b3633-f86c-4a58-acec-368545558b96.png">
+
+
 <!-- REQUIRED INSTALLATION -->
 
 ## Required Installations
